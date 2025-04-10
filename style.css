@@ -2,6 +2,7 @@ body {
     width: 100%;
 }
 
+
 .carousel-inner {
     height: 0;
     padding-bottom: 50%; /* this sets carousel aspect ratio (4:1 here) */
@@ -18,4 +19,9 @@ body {
   .carousel-item img {
     height: 100%; /* Bootstrap handles width already */
     object-fit: cover; /* or 'contain' if you want stretch instead of crop */
+  }
+
+  hr {
+    height: 20px;
+    color: rgb(10, 10, 10);
   }
