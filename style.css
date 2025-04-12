@@ -2,6 +2,10 @@ body {
     width: 100%;
 }
 
+html { 
+  scroll-padding-top: 125px; 
+}
+
 
 .carousel-inner {
     height: 0;
